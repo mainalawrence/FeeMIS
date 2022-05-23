@@ -1,0 +1,41 @@
+.container{
+    width: 80%;
+    margin: 0% auto;
+    padding: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+}
+.image{
+   align-self: center;
+   margin: 0px 1% !important;
+   color: white;
+   background-color: white;
+   border-radius: 10px;
+}
+.image:hover{
+    opacity: 80%;
+    box-shadow:0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.flex-s{
+    justify-content: space-around;
+}
+.right{
+    width: 11%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.sm-img{
+    width: 30%;
+}
+a{
+    padding: 0.3% 1%;
+    border-radius: 10px;
+    border-width: 1px;
+    border-style: solid;
+    margin-left: 1%;
+}
