@@ -61,3 +61,6 @@ opacity: 90%;
     background-color: red;
     opacity: 90%;
 }
+input.bg-valid.ng-touched{
+    border: 2px solid red; 
+}
